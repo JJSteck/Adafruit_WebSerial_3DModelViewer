@@ -427,7 +427,7 @@ scene.background = new THREE.Color('black');
 
 {
   const objLoader = new OBJLoader();
-  objLoader.load('assets/drone.obj', (root) => {
+  objLoader.load('assets/drone_costum.obj', (root) => {
     drone = root;
     scene.add(root);
   });
